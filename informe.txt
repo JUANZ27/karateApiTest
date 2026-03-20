@@ -1,0 +1,9 @@
+Estrategia de automatización:
+Cobertura CRUD por endpoint + flujo E2E.
+Casos positivos (200/201) y negativos (400 por ID inexistente y email duplicado).
+Validación de estructuras con “schemas” reutilizables.
+
+Patrones utilizados:
+Background para baseUrl, paths y esquemas.
+Helper data-generator.js para datos dinámicos (evita duplicados).
+Separación por features (legibilidad + mantenibilidad).
